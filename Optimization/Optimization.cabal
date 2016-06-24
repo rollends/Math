@@ -1,0 +1,24 @@
+name:                Optimization
+version:             0.1.0.0
+synopsis:            Some Haskell Implementations of Optimization Algorithms
+description:         Please see README.md
+homepage:            https://github.com/RollenDS/Optimization#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Rollen D'Souza
+maintainer:          rollendsouza@live.com
+copyright:           2016 Rollen D'Souza
+category:            Math
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     NelderMead
+  build-depends:       base >= 4.7 && < 5, hmatrix
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/RollenDS/Optimization
